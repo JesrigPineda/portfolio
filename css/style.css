@@ -836,6 +836,35 @@ footer .credits a {
   border-radius: 0.3rem;
 }
 
+
+button.skill-name {
+  color: #1D9AF2;
+  background-color: #ffffff;
+  border: 1px solid #1D9AF2;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 5px 9px 27px 9px;
+  cursor: pointer;
+  height: 32px;
+  font-size: 14px;
+
+  box-shadow: 0 0 4px #999;
+  outline: none;
+  background-position: center;
+  transition: background 0.8s;
+}
+button.skill-name:hover{
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)
+   center/15000%;
+  color: white;
+}
+
+button.skill-name:active{
+  background-color: #292d3e;
+  background-size: 100%;
+  transition: background 0s;
+}
+
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
